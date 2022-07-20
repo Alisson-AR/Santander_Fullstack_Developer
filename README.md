@@ -1,2 +1,10 @@
-# Santander_Fullstack_Developer
-Repositório destinado ao conhecimento adquirido com o Bootcamp Santander Fullstack Developer.
+# Santander Bootcamp Fullstack Developer
+
+### Conteúdo pragmático:
+
+ - HTML 
+ - CSS3
+ - JAVASCRIPT
+ - ANGULAR
+ - JAVA
+ - SPRING FRAMEWORK
