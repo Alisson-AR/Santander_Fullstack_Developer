@@ -1,0 +1,35 @@
+body {
+    background: gray
+}
+
+
+#title, .subtitle, .post_title {
+    color: black;        
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom:5 px;
+}
+
+.post {
+    background: rgb(165, 163, 163);
+    padding: 15px;
+    border: 3px solid rgb(83, 83, 83);
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.post_image {
+    margin-bottom: 15px;
+    margin-left: 6.55cm;
+    border-radius: 5px;
+}
