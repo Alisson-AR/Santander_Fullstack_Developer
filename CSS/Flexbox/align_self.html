@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Self</title>
+
+    <style>
+        .flex-container{
+            max-width: 350px;
+            border: 5px solid rgb(136, 29, 21);
+            margin-bottom: 10px;
+            display: flex;
+        }
+
+        .item{
+            background-color: rgb(161, 29, 29);
+            color: aliceblue;
+            font-size: 25px;
+            text-align: center;
+            margin: 6px;
+           
+        }
+
+        .column{
+            flex-direction: column;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Auto</h3>
+<section class="flex-container auto">
+    <div class="item auto">One to five in Japanese</div>
+    <div class="item auto">Ichi</div>
+    <div class="item auto">Ni</div>
+    <div class="item auto">San</div>
+    <div class="item auto">Shi</div>
+    <div class="item auto">Go</div>
+</section>
+
+    <h3>Flex-start</h3>
+    <section class="flex-container start">
+        <div class="item start">One to five in Japanese</div>
+        <div class="item start">Ichi</div>
+        <div class="item start">Ni</div>
+        <div class="item start">San</div>
+        <div class="item start">Shi</div>
+        <div class="item start">Go</div>
+    </section>
+
+    <h3>Flex-end</h3>
+    <section class="flex-container end">
+        <div class="item end">One to five in Japanese</div>
+        <div class="item end">Ichi</div>
+        <div class="item end">Ni</div>
+        <div class="item end">San</div>
+        <div class="item end">Shi</div>
+        <div class="item end">Go</div>
+    </section>
+
+    <h3>Center</h3>
+    <section class="flex-container center">
+        <div class="item center">One to five in Japanese</div>
+        <div class="item center">Ichi</div>
+        <div class="item center">Ni</div>
+        <div class="item center">San</div>
+        <div class="item center">Shi</div>
+        <div class="item center">Go</div>
+    </section>
+
+    <h3>Stretch</h3>
+    <section class="flex-container stretch">
+        <div class="item stretch">One to five in Japanese</div>
+        <div class="item stretch">Ichi</div>
+        <div class="item stretch">Ni</div>
+        <div class="item stretch">San</div>
+        <div class="item stretch">Shi</div>
+        <div class="item stretch">Go</div>
+    </section>
+
+    <h3>Baseline</h3>
+    <section class="flex-container baseline">
+        <div class="item baseline">One to five in Japanese</div>
+        <div class="item baseline">Ichi</div>
+        <div class="item baseline">Ni</div>
+        <div class="item baseline">San</div>
+        <div class="item baseline">Shi</div>
+        <div class="item baseline">Go</div>
+    </section>
+
+    <h3>Mixed</h3>
+    <section class="flex-container baseline">
+        <div class="item baseline">One to five in Japanese</div>
+        <div class="item center">Ichi</div>
+        <div class="item start">Ni</div>
+        <div class="item stretch">San</div>
+        <div class="item end">Shi</div>
+        <div class="item center">Go</div>
+    </section>
+
+    <h2>Column</h2>
+
+    <h3>Auto</h3>
+<section class="flex-container column auto">
+    <div class="item auto">One to five in Japanese</div>
+    <div class="item auto">Ichi</div>
+    <div class="item auto">Ni</div>
+    <div class="item auto">San</div>
+    <div class="item auto">Shi</div>
+    <div class="item auto">Go</div>
+</section>
+
+    <h3>Flex-start</h3>
+    <section class="flex-container column start">
+        <div class="item start">One to five in Japanese</div>
+        <div class="item start">Ichi</div>
+        <div class="item start">Ni</div>
+        <div class="item start">San</div>
+        <div class="item start">Shi</div>
+        <div class="item start">Go</div>
+    </section>
+
+    <h3>Flex-end</h3>
+    <section class="flex-container column end">
+        <div class="item end">One to five in Japanese</div>
+        <div class="item end">Ichi</div>
+        <div class="item end">Ni</div>
+        <div class="item end">San</div>
+        <div class="item end">Shi</div>
+        <div class="item end">Go</div>
+    </section>
+
+    <h3>Center</h3>
+    <section class="flex-container column center">
+        <div class="item center">One to five in Japanese</div>
+        <div class="item center">Ichi</div>
+        <div class="item center">Ni</div>
+        <div class="item center">San</div>
+        <div class="item center">Shi</div>
+        <div class="item center">Go</div>
+    </section>
+
+    <h3>Stretch</h3>
+    <section class="flex-container column stretch">
+        <div class="item stretch">One to five in Japanese</div>
+        <div class="item stretch">Ichi</div>
+        <div class="item stretch">Ni</div>
+        <div class="item stretch">San</div>
+        <div class="item stretch">Shi</div>
+        <div class="item stretch">Go</div>
+    </section>
+
+    <h3>Baseline</h3>
+    <section class="flex-container column baseline">
+        <div class="item baseline">One to five in Japanese</div>
+        <div class="item baseline">Ichi</div>
+        <div class="item baseline">Ni</div>
+        <div class="item baseline">San</div>
+        <div class="item baseline">Shi</div>
+        <div class="item baseline">Go</div>
+    </section>
+
+    <h3>Mixed</h3>
+    <section class="flex-container column baseline">
+        <div class="item baseline">One to five in Japanese</div>
+        <div class="item center">Ichi</div>
+        <div class="item start">Ni</div>
+        <div class="item stretch">San</div>
+        <div class="item end">Shi</div>
+        <div class="item center">Go</div>
+    </section>
+</body>
+</html>
