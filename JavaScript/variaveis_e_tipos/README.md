@@ -8,4 +8,4 @@ Palíndromo é uma frase ou palavra que se pode ler, indiferentemente, da esquer
 
 #### 2. Trocar números.
 
-Troca os elementos pares e diferentes de zero de um array pelo número 0. Se o array for vazio retornar -1.
+Trocar os elementos pares e diferentes de zero de um array pelo número 0. Se o array for vazio retornar -1.
